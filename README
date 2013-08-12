@@ -1,0 +1,19 @@
+float.timeline.js
+Joe Balough 2013
+GPL v2
+
+
+A series of enhancements made to flot that add
+   an overview graph
+   ability to show / hide series by clicking them in the legend
+   automatic Y-axis scaling when selecting a range in the overview graph
+   tooltip showing all data for that point in time
+   Support for 'this-unit' series containing the most recent data, separated out since it is not final data
+   Automatic data update via AJAX
+
+I acknowledge that this should all be in a flot plugin and that in order to use this, it would be a bit of work to pull the customizations out.
+Mostly I'm putting this out there in case anybody else was trying to mimic the Google Docs Timeline graph.
+Hopefully I'll have the time in the future to make this into a proper flot plugin.
+
+This code requires jQuery, flot, flot.navigate, flot.time, and flot.selection.
+
